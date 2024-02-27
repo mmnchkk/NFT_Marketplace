@@ -1,0 +1,104 @@
+.discover-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 195px 80px 195px;
+    gap: 60px;
+}
+
+.dm-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.dm-btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #2b2b2b00;
+    border-radius: 20px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    text-align: center;
+    cursor: pointer;
+    width: 187px;
+    height: 60px;
+    gap: 12px;
+
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+
+    transition: transform .2s;
+}
+
+.dm-btn button:hover {
+    transform: scale(1.05) perspective(1px);
+}
+
+.dm-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.dm-card {
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    width: 330px;
+    height: 469px;
+}
+
+.dm-user-img {
+    width: 330px;
+    height: 296px;
+}
+
+.dm-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.dm-card-user {
+    gap: 8px;
+    margin: -10px 0px 30px 30px;
+}
+
+.dm-card-user h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.dm-username {
+    display: flex;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: -20px;
+}
+
+.dm-card-pb {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dm-card-pb p {
+    margin-top: -10px;
+}
+
+.dm-card-bid {
+    text-align: right;
+}
+
+.card-grey {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color:rgba(133, 133, 132, 1);
+}

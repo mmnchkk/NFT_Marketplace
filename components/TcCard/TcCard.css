@@ -1,0 +1,53 @@
+.tc-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 198px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.card-number {
+    background-color: rgba(43, 43, 43, 1);
+    color: rgb(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.creator-info img {
+    position: absolute;
+    margin: -50px 0px 80px 40px;
+    width: 120px;
+    height: 120px;
+}
+
+.creator-info p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    color: rgba(255, 255, 255, 1);
+    margin: 90px 0px -20px 0px;
+}
+
+.creator-general {
+    text-align: center;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: rgba(133, 133, 132, 1);
+    letter-spacing: 0.8px;
+    margin: -8px -10px 0px -10px;
+}
+
+.creator-general span {
+    color: white;
+}

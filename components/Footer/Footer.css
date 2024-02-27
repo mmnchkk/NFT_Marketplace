@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 264px;
+    background-color: #3B3B3B;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 660px;
+    width: 100%;
+    gap: 30px;
+}
+
+.footer-explore {
+    gap: 25px;
+}
+
+.footer-items, .footer-desc {
+    margin-top: 25px;
+}
+
+.footer-explore span, .footer-join span {
+    font-size: 22px;
+    font-weight: 700; 
+    letter-spacing: 1px;
+    color: white;
+}
+
+.footer-items p, .footer-join p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #CCCCCC;
+}

@@ -1,0 +1,19 @@
+.ctg-card {
+    width: 240px;
+    height: 316px;
+    background-color:rgba(59, 59, 59, 1);
+    border-radius: 20px;
+}
+
+.ctg-card-img img{
+    width: 240px;
+    height: 240px;
+}
+
+.ctg-card p {
+    text-align: left;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    margin-left: 30px;
+}

@@ -1,0 +1,125 @@
+.main-marketplace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.marketplace {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.mp-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.mp-title h2 {
+    text-align: left;
+    width: 1050px;
+}
+
+.mp-title p {
+    text-align: left;
+    width: 1050px;
+    margin-top: -35px;
+}
+
+.mp-title input {
+    width: 1050px;
+    height: 60px;
+    background-color: #ffffff00;
+    border:  1px solid rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    padding-left: 20px;
+    outline: none;
+    /* background-image: url(../../img/imgMarketplace/MagnifyingGlass.svg);
+    background-repeat: no-repeat;
+    background-position: right; */
+}
+
+.mp-title button {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 1000px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.mp-title button:hover {
+    transform: scale(1.2) perspective(1px);
+}
+
+.characters-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(59, 59, 59, 1);
+    height: 70px;
+    margin-top: 80px;
+}
+
+.characters-info h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 525px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.characters-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-left: 20px;
+}
+
+.nfts h5 {
+    border-bottom: 2px solid rgba(133, 133, 132, 1);
+}
+
+.nfts p {
+    background-color: rgba(133, 133, 132, 1);
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+
+.collections h5 {
+    color: rgba(133, 133, 132, 1);
+}
+
+.collections p {
+    background-color: rgba(59, 59, 59, 1);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(59, 59, 59, 1);
+    background-size:cover;
+    width: 100%;
+}
+
+.characters-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+    max-width: 1280px;
+    width: 100%;
+}

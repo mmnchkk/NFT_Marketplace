@@ -1,0 +1,84 @@
+.main-create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.create-acc {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    gap: 60px;
+}
+
+.create-acc-img {
+    width: 610px;
+    height: 691px;
+}
+
+.create-acc-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.create-acc-info p {
+    margin-top: -25px;
+}
+
+.create-acc-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-acc-form input {
+    width: 300px;
+    height: 46px;
+    border-radius: 20px;
+    border: 1px solid rgba(133, 133, 132, 1);
+    background-color: #fff;
+    padding-left: 52px;
+    outline: none;
+    background-repeat: no-repeat;
+
+}
+
+.create-acc-form input::placeholder {
+    color: #000;
+}
+
+.create-acc-form input[type ="text"] {
+    background-image: url(../../img/imgCreateAcc/user.svg);
+}
+
+.create-acc-form input[type ="email"] {
+    background-image: url(../../img/imgCreateAcc/mail.svg);
+}
+
+.create-acc-form input[type ="password"] {
+    background-image: url(../../img/imgCreateAcc/password.svg);
+}
+
+.create-acc-form button {
+    margin-top: 20px;
+    width: 355px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(162, 89, 255, 1);
+    
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    outline: none;
+
+    transition: transform .2s;
+}
+
+.create-acc-form button:hover {
+    transform: scale(1.05) perspective(1px);
+}
